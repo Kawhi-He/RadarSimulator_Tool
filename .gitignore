@@ -31,6 +31,9 @@ MANIFEST
 #   before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+# Project-specific PyInstaller spec files are checked in for reproducible builds.
+!RadarSimulatorTool.spec
+!RadarOpcBenchmarkTool.spec
 
 # Installer logs
 pip-log.txt
@@ -216,3 +219,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Captured radar frame data
+frame.txt

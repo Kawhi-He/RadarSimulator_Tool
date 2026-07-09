@@ -7,7 +7,7 @@
 from RsInstrument import *
 import time
 def main():
-	InstrObj = RsInstrument('TCPIP::10.66.156.52::hislip0', reset=False, id_query=False,
+	InstrObj = RsInstrument('TCPIP::10.66.156.12::hislip0', reset=False, id_query=False,
 						options="SelectVisa='rs' , LoggingMode = Off, LoggingToConsole = False")
 	# InstrObj.clear()
 	InstrObj.read_termination = '\n'

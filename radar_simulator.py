@@ -15,7 +15,7 @@ from radar_scenarios import BrandProfile, ScenarioId
 
 
 Number = int | float
-DEFAULT_IP = "10.66.156.52"
+DEFAULT_IP = "10.66.156.12"
 
 
 class RadarTargetSimulator(AbstractContextManager["RadarTargetSimulator"]):
